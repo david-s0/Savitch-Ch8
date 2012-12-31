@@ -1,0 +1,7 @@
+project15% make clean
+rm sexist *.o
+project15% make
+g++ -g -Wall -c main.cpp
+g++ -g -Wall -c sexistFuncs.cpp
+g++ -g -Wall main.o -o sexist
+project15% 
